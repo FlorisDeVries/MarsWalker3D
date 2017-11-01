@@ -7,6 +7,7 @@ public class RoverMovement : MonoBehaviour {
 	public List<AxleInfo> axleInfos;
 	public float maxMotorTorque;
 	public float maxSteeringAngle;
+	public float breakTorque;
 
 	void FixedUpdate() {
 		float motor = maxMotorTorque * Input.GetAxis("Move");
