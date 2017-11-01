@@ -9,6 +9,12 @@ public class RoverMovement : MonoBehaviour {
 	public float maxSteeringAngle;
 	public float breakTorque;
 
+	private Vector3 centerOfMassOffset =  new Vector3(0,-.5f,0);
+	public Rigidbody rb;
+
+	void Start() {
+		//rb.centerOfMass += centerOfMassOffset;
+	}
 	void FixedUpdate() {
 		float motor = maxMotorTorque * Input.GetAxis("Move");
 		float steering = maxSteeringAngle * Input.GetAxis("Turn");

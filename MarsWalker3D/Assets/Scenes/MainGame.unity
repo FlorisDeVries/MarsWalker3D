@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 88ec9a13802800449aaf825aff3aadc7, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.16487625, g: 0.10864479, b: 0.22398311, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -131,7 +131,7 @@ TerrainCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 218999671}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 10b4d01198ecdc445b579331e01020e2, type: 2}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 8b97601fa9490834689c6b73f2656dc4, type: 2}
   m_EnableTreeColliders: 1
@@ -217,9 +217,10 @@ MonoBehaviour:
     rightWheel: {fileID: 755104242}
     motor: 1
     steering: 0
-  maxMotorTorque: 25
+  maxMotorTorque: 50
   maxSteeringAngle: 15
-  breakTorque: 100000
+  breakTorque: 10
+  rb: {fileID: 440079616}
 --- !u!4 &440079615
 Transform:
   m_ObjectHideFlags: 0
@@ -242,7 +243,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 440079613}
   serializedVersion: 2
-  m_Mass: 2000
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -260,8 +261,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.1137733, y: 0.7488271, z: 1.9224367}
-  m_Center: {x: 0.008190393, y: 0.65551156, z: 0.23789191}
+  m_Size: {x: 2.1137733, y: 0.5016037, z: 1.9224367}
+  m_Center: {x: 0.008190393, y: 0.7125287, z: 0.23789191}
 --- !u!1 &524238752 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 151320, guid: 0f3c7f1cc0b91f349b51f7d4ec7a7408, type: 2}
