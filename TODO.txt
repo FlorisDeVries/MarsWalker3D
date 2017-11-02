@@ -1,28 +1,34 @@
+Keep it interisting to play +
+
+Point and click collector ++
+
+Work on narrative ++
+
 Terrain:
-    Modify/Find terrain that is easily drivable
-    Maybe some other texture mapping
+    + Modify/Find terrain that is easily drivable
+    ~ Maybe some other texture mapping
 
 Skybox:
-    Find a way to create natural light
-    
+    ~ Find a way to create natural light
+
 Rover:
-    More realistic moving parts can help
-    Adjust some values to create more natural driving(now it goes too fast at times)
-    
+    ~ More realistic moving parts can help
+    ~ Adjust some values to create more natural driving(now it goes too fast at times)
+
 World:
     Mostly aesthetics
-        Add rocks (formations)
-        Sand storms
+        + Add rocks (formations)
+        ~ Sand storms
 
 Sound:
-    Add everything
-    
-Game:
-    Signs
-    footprints
-    Think of natural way to motivate player to explore in the right direction
+    ~ Add everything
 
-Other rover:
+Game:
+    + Signs
+    ~ footprints
+    + Think of natural way to motivate player to explore in the right direction/Other gameplay elements
+
+Other rover: -
     Find asset(can reuse)
     Maybe some sort of radio
     
