@@ -13,7 +13,7 @@ public class RoverMovement : MonoBehaviour {
 	public Rigidbody rb;
 
 	void Start() {
-		//rb.centerOfMass += centerOfMassOffset;
+		rb.centerOfMass += centerOfMassOffset;
 	}
 	void FixedUpdate() {
 		float motor = maxMotorTorque * Input.GetAxis("Move");
