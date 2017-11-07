@@ -1,33 +1,23 @@
-Keep it interisting to play +
+Keep it interesting to play +
 
-Point and click collector ++
-
-Work on narrative ++
-
-Terrain:
-    + Modify/Find terrain that is easily drivable
+Work on narrative +
 
 Rover:
     ~ More realistic moving parts can help
     ~ Adjust some values to create more natural driving(now it goes too fast at times)
 
 World:
-    Mostly aesthetics
-        + Add rocks (formations)
-        ~ Sand storms
+    + Add rocks (formations)
+    ~ Sand storms
 
 Sound:
-    ~ Add everything
+    Wind(sand storm)
 
 Game:
     ~ footprints
-
-Other rover:
-    Maybe some sort of radio
     
 UI:
     Menu
-    Overlay
     ESC menu
     
 TODO:  
