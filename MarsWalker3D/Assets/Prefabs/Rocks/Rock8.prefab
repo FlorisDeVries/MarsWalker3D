@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23608170339503980}
   - component: {fileID: 64157259972607700}
   - component: {fileID: 114040309253707506}
+  - component: {fileID: 114761762196958186}
   m_Layer: 0
   m_Name: Rock8
   m_TagString: Clickable
@@ -108,3 +109,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+--- !u!114 &114761762196958186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229763359859546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02833962f2dbbcc4d98a8b2ccfb6066c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
