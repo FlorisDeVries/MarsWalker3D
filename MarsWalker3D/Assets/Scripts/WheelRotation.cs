@@ -8,7 +8,7 @@ public class WheelRotation : MonoBehaviour {
 
 	public void Update()
 	{
-		transform.RotateAround(transform.position, rb.transform.right, Mathf.Min(3 * Mathf.Min(rb.velocity.x) + Mathf.Abs(rb.velocity.z), 8));
-
+		int direction = rb.transform.InverseTransformDirection(rb.velocity).z > 0 ? 1 : -1;
+		transform.RotateAround(transform.position, rb.transform.right, direction * Mathf.Min(3 * Mathf.Abs(rb.velocity.x) + Mathf.Abs(rb.velocity.z), 8));
 	}
 }
