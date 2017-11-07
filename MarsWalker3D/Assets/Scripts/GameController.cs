@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour {
 
-	public float score = 0;
 	void Start () {
 
 	}

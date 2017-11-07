@@ -6,10 +6,6 @@ Work on narrative ++
 
 Terrain:
     + Modify/Find terrain that is easily drivable
-    ~ Maybe some other texture mapping
-
-Skybox:
-    ~ Find a way to create natural light
 
 Rover:
     ~ More realistic moving parts can help
@@ -24,12 +20,9 @@ Sound:
     ~ Add everything
 
 Game:
-    + Signs
     ~ footprints
-    + Think of natural way to motivate player to explore in the right direction/Other gameplay elements
 
-Other rover: -
-    Find asset(can reuse)
+Other rover:
     Maybe some sort of radio
     
 UI:
