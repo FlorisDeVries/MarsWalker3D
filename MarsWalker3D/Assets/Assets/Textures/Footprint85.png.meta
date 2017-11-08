@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 6c1eafa7505c05640b8fbb598e2ede8c
-timeCreated: 1510133911
-=======
-guid: 208c66b988f598e42bb76b0b334f352b
-timeCreated: 1510133827
->>>>>>> a872deb02b3f2d99c494424e8c35e493753557f9
+guid: f34c9c8d6010f144c949bf28b27dd602
+timeCreated: 1510136289
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-<<<<<<< HEAD
-    enableMipMap: 1
-=======
     enableMipMap: 0
->>>>>>> a872deb02b3f2d99c494424e8c35e493753557f9
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -24,11 +15,7 @@ TextureImporter:
     mipMapsPreserveCoverage: 0
     alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
-<<<<<<< HEAD
-    mipMapFadeDistanceEnd: 4
-=======
     mipMapFadeDistanceEnd: 3
->>>>>>> a872deb02b3f2d99c494424e8c35e493753557f9
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
@@ -44,19 +31,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-<<<<<<< HEAD
-    aniso: 16
-    mipBias: -1
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
-=======
     aniso: -1
     mipBias: -1
     wrapU: 1
     wrapV: -1
     wrapW: -1
->>>>>>> a872deb02b3f2d99c494424e8c35e493753557f9
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
