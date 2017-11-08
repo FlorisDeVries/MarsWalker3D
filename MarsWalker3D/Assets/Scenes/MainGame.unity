@@ -1072,7 +1072,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 141463039}
-  m_LocalRotation: {x: -0.68437564, y: -0.17784856, z: -0.17784844, w: 0.68437546}
+  m_LocalRotation: {x: -0.6843757, y: -0.17784858, z: -0.17784846, w: 0.6843755}
   m_LocalPosition: {x: -154.52002, y: -6.68, z: 100.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -3515,9 +3515,10 @@ MonoBehaviour:
     rightWheel: {fileID: 755104242}
     motor: 1
     steering: 0
-  maxMotorTorque: 50
+  maxMotorTorque: 100
   maxSteeringAngle: 15
-  breakTorque: 10
+  breakTorque: 1000
+  maxSpeed: 35
   rb: {fileID: 440079616}
 --- !u!4 &440079615
 Transform:
@@ -3526,7 +3527,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 440079613}
   m_LocalRotation: {x: -0, y: -0.9958829, z: -0, w: -0.09064981}
-  m_LocalPosition: {x: -157.4, y: 2.823, z: 74.9}
+  m_LocalPosition: {x: 6.4, y: 2.823, z: 8.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1387425806}
@@ -3560,8 +3561,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.1137733, y: 0.5016037, z: 1.9224367}
-  m_Center: {x: 0.008190393, y: 0.7125287, z: 0.23789191}
+  m_Size: {x: 2.1137733, y: 0.33014107, z: 1.9224367}
+  m_Center: {x: 0.0081904, y: 0.74001384, z: 0.23789193}
 --- !u!114 &440079618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12265,7 +12266,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2026342811}
-  m_LocalRotation: {x: -0.68437564, y: -0.17784856, z: -0.17784844, w: 0.68437546}
+  m_LocalRotation: {x: -0.6843757, y: -0.17784858, z: -0.17784846, w: 0.6843755}
   m_LocalPosition: {x: -153.86003, y: -6.68, z: 99.78002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
