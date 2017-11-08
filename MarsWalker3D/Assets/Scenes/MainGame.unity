@@ -2531,7 +2531,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 265840609}
-  - component: {fileID: 265840608}
   - component: {fileID: 265840610}
   - component: {fileID: 265840611}
   - component: {fileID: 265840612}
@@ -2542,17 +2541,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &265840608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 265840607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea523a01bc11dee45aca52fbdba955e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &265840609
 Transform:
   m_ObjectHideFlags: 0
@@ -13870,7 +13858,7 @@ Prefab:
         type: 2}
       propertyPath: controller
       value: 
-      objectReference: {fileID: 265840608}
+      objectReference: {fileID: 0}
     - target: {fileID: 114583952671321822, guid: bb6b6fec337e258498a7d189044610c5,
         type: 2}
       propertyPath: researchProgress

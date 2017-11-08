@@ -1,9 +1,11 @@
 Rover:
     ~ More realistic moving parts can help
     ~ Camera sway
+    
+Sound:
+    Victory Sound
 
 World:
-    ~ Sand storms
     ~ Level design
 
 TODO:  

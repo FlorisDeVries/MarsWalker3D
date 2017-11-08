@@ -6,7 +6,6 @@ public class PointAndClick : MonoBehaviour {
 
 	public float range;
 	public Camera camera;
-	public GameController controller;
 	public ResearchProgress researchProgress;
 	
 	void Update () {
