@@ -31,22 +31,22 @@ public class RoverMovement : MonoBehaviour {
 		float steering = maxSteeringAngle * Input.GetAxis("Turn");
 
 		foreach (AxleInfo axleInfo in axleInfos){
+			if (axleInfo.steering) {
+				axleInfo.leftWheel.steerAngle = steering;
+				axleInfo.rightWheel.steerAngle = steering;
 				if(Input.GetAxis("Brake") == 0){
-					if (axleInfo.steering) {
-						axleInfo.rightWheel.brakeTorque = 0;
-						axleInfo.leftWheel.brakeTorque = 0;
-						axleInfo.leftWheel.steerAngle = steering;
-						axleInfo.rightWheel.steerAngle = steering;
-					}
-					if (axleInfo.motor) {
-						axleInfo.leftWheel.motorTorque = motor;
-						axleInfo.rightWheel.motorTorque = motor;
-					}
-				} else{
-					if(axleInfo.steering){
-						axleInfo.rightWheel.brakeTorque = brakeTorque;
-						axleInfo.leftWheel.brakeTorque = brakeTorque;
-					}
+					axleInfo.rightWheel.brakeTorque = 0;
+					axleInfo.leftWheel.brakeTorque = 0;
+				} else {
+					axleInfo.rightWheel.brakeTorque = brakeTorque;
+					axleInfo.leftWheel.brakeTorque = brakeTorque;
+				}
+			}
+
+			if(Input.GetAxis("Brake") == 0)
+				if (axleInfo.motor) {
+					axleInfo.leftWheel.motorTorque = motor;
+					axleInfo.rightWheel.motorTorque = motor;
 				}
 		}
 	}

@@ -8,6 +8,7 @@ public class RoverRescue : MonoBehaviour {
 
 	void OnDestroy()
 	{
-		source.Stop();
+        if(source != null)
+		    source.Stop();
 	}
 }

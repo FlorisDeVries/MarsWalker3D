@@ -53,7 +53,7 @@ public class ResearchProgress : MonoBehaviour {
 		progressSlider.value = progressSlider.maxValue;
 
 		pointAndClick.enabled = false;
-		roverMovement.enabled = false;
+		roverMovement.finished = true;
 
 	}
 }
