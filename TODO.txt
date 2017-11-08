@@ -1,13 +1,10 @@
 Rover:
     ~ More realistic moving parts can help
-    ~ Adjust some values to create more natural driving(now it goes too fast at times)
+    ~ Camera sway
 
 World:
     + Add rocks (formations)
     ~ Sand storms
-
-Game:
-    more footprints
     
 UI:
     Cursor
