@@ -25,7 +25,7 @@ public class CarSoundController : MonoBehaviour {
 			tempPitch = maxPitch;
 		} else {
 			tempPitch += Random.Range(0, 2) == 1 ? .01f : -.01f;
-			tempPitch = Mathf.Max(maxPitch, Mathf.Min(tempPitch, velocity/6));
+			tempPitch = Mathf.Clamp(tempPitch, maxPitch, velocity/6);
 			pitch = tempPitch;
 		}
 		volume = Mathf.Min(velocity / 6, maxVolume);

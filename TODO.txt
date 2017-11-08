@@ -6,7 +6,6 @@ Second Rover:
     Board placing arm
 
 World:
-    + Add rocks (formations)
     ~ Sand storms
     ~ Level design
     

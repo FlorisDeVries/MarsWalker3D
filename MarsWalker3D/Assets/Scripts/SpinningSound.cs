@@ -9,6 +9,6 @@ public class SpinningSound : MonoBehaviour {
 	private void Update() {
 		transform.Rotate(Vector3.up, speed * Time.deltaTime);
 		speed += Random.Range(0,2) == 1 ? 1 : -1;
-		Mathf.Clamp(speed, -50, 50);
+		speed = Mathf.Clamp(speed, -50, 50);
 	}
 }
