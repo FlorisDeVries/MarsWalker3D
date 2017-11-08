@@ -3100,7 +3100,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b7c6986041b697644a471f773d2e2485, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.554
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4503,6 +4503,8 @@ MonoBehaviour:
   sources:
   - {fileID: 1845180480}
   - {fileID: 99739571}
+  maxPitch: 1.35
+  maxVolume: 0.5
 --- !u!1001 &447054779
 Prefab:
   m_ObjectHideFlags: 0
@@ -9858,7 +9860,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 322e3297cb8aef148b2c1a16464b057d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.345
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -10436,7 +10438,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 14
   m_CollisionDetection: 0
 --- !u!65 &1176953583
 BoxCollider:
@@ -10840,10 +10842,10 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 70
+  MaxDistance: 97.08035
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -17059,7 +17061,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8b612be99d98fe44abc3fe348c55f02c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.536
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0
