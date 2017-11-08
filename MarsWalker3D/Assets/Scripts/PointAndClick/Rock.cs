@@ -3,17 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Rock : ClickAble {
-
-	void Start () {
-		points = 5;
-	}
-	
-	void Update () {
-		
-	}
-
+	public AudioSource source;
 	override public void OnClick(){
+		source.Play();
+		GetComponent<Renderer>().enabled = false;
+		GetComponent<MeshCollider>().enabled = false;
 		//Play effect
-		Destroy(gameObject);
+		Destroy(gameObject, source.clip.length);
 	}
 }

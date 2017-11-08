@@ -1,17 +1,11 @@
-Keep it interesting to play +
-
-Work on narrative +
-
 Rover:
     ~ More realistic moving parts can help
     ~ Adjust some values to create more natural driving(now it goes too fast at times)
+    ~ Brakes
 
 World:
     + Add rocks (formations)
     ~ Sand storms
-
-Sound:
-    Wind(sand storm)
 
 Game:
     ~ footprints
