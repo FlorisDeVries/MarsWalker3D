@@ -4868,10 +4868,12 @@ MonoBehaviour:
     rightWheel: {fileID: 755104242}
     motor: 1
     steering: 0
-  maxMotorTorque: 50
+  maxMotorTorque: 100
   maxSteeringAngle: 15
-  breakTorque: 10
+  brakeTorque: 100
+  maxSpeed: 40
   rb: {fileID: 440079616}
+  finished: 0
 --- !u!4 &440079615
 Transform:
   m_ObjectHideFlags: 0
@@ -11651,7 +11653,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: cb54b642188af5548bc10b87c1fef632, type: 2}
+  - {fileID: 2100000, guid: f91fc76a41cf67141a7c89b86ce9bb9b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

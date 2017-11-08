@@ -41,7 +41,6 @@ public class ResearchProgress : MonoBehaviour {
 		progress++;
 		progressSlider.value = progress;
 		
-		//playerAudio.Play();
 		if(progress >= nRocks && !researchDone)
 			CompleteResearch();
 	}
