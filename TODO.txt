@@ -1,18 +1,10 @@
 Rover:
     ~ More realistic moving parts can help
     ~ Camera sway
-    
-Second Rover:
-    Board placing arm
 
 World:
     ~ Sand storms
     ~ Level design
-    
-UI:
-    Cursor
-    Menu
-    ESC menu
-    
+
 TODO:  
     Keep expanding the list when thinking of stuff

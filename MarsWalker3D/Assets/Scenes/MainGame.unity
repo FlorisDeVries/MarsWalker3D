@@ -1148,6 +1148,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1122439789089818, guid: 6c8186447230e1748a2ce0f6e06eb9e9, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c8186447230e1748a2ce0f6e06eb9e9, type: 2}
   m_IsPrefabParent: 0
@@ -4569,11 +4573,6 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 811521215}
-    - target: {fileID: 114202696452673292, guid: 0b9962538593c2b499217dc0926c9eb1,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitHowToPlay
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b9962538593c2b499217dc0926c9eb1, type: 2}
   m_IsPrefabParent: 0
@@ -13877,6 +13876,14 @@ Prefab:
       propertyPath: researchProgress
       value: 
       objectReference: {fileID: 265840611}
+    - target: {fileID: 1827141769394880, guid: bb6b6fec337e258498a7d189044610c5, type: 2}
+      propertyPath: m_Name
+      value: Sand Storm
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583394103504168, guid: bb6b6fec337e258498a7d189044610c5, type: 2}
+      propertyPath: m_Name
+      value: Sand Storm 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb6b6fec337e258498a7d189044610c5, type: 2}
   m_IsPrefabParent: 0
