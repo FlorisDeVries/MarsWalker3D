@@ -13,7 +13,7 @@ PlayerSettings:
   companyName: DefaultCompany
   productName: MarsWalker3D
   defaultCursor: {fileID: 2800000, guid: c670ee55edc5de847954d6c3d74162a8, type: 3}
-  cursorHotspot: {x: 0, y: 0}
+  cursorHotspot: {x: 246, y: 96}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
