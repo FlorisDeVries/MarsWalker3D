@@ -9,11 +9,10 @@ public class ResearchProgress : MonoBehaviour {
 	int progress;
 	public Slider progressSlider;
 	public Image progressImage;
-	public AudioClip researchClip;
-
 	public AudioSource playerAudio;
 	public PointAndClick pointAndClick;
 	public RoverMovement roverMovement;
+	public Canvas victory, HUD;
 
 	bool researched;
 	bool researchDone;
@@ -25,6 +24,7 @@ public class ResearchProgress : MonoBehaviour {
 		nRocks = gol.Length;
 		progress = 0;
 		progressSlider.maxValue = nRocks;
+		nRocks = 1;
 	}
 	
 	void Update () {
@@ -48,12 +48,13 @@ public class ResearchProgress : MonoBehaviour {
 	void CompleteResearch(){
 		researchDone = true;
 
-		//playerAudio.clip = researchClip;
-		//playerAudio.Play();
+		playerAudio.Play();
 		progressSlider.value = progressSlider.maxValue;
 
 		pointAndClick.enabled = false;
 		roverMovement.finished = true;
-
+		
+		victory.gameObject.SetActive(true);
+		HUD.gameObject.SetActive(false);
 	}
 }
