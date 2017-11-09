@@ -923,7 +923,7 @@ Prefab:
     - target: {fileID: 108749239475795506, guid: 798a496777f596e4d81a04c7d0802c7e,
         type: 2}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.472
       objectReference: {fileID: 0}
     - target: {fileID: 108749239475795506, guid: 798a496777f596e4d81a04c7d0802c7e,
         type: 2}
@@ -933,7 +933,7 @@ Prefab:
     - target: {fileID: 108749239475795506, guid: 798a496777f596e4d81a04c7d0802c7e,
         type: 2}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.858496
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 798a496777f596e4d81a04c7d0802c7e, type: 2}
@@ -6116,8 +6116,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 145.3}
-  m_SizeDelta: {x: 160, y: 35.3}
+  m_AnchoredPosition: {x: -0.000014305, y: 148.9}
+  m_SizeDelta: {x: 179.28, y: 35.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1921958644
 MonoBehaviour:
@@ -6151,7 +6151,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main Menu
+  m_Text: Mars Walker
 --- !u!222 &1921958645
 CanvasRenderer:
   m_ObjectHideFlags: 0

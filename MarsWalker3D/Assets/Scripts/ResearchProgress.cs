@@ -24,7 +24,6 @@ public class ResearchProgress : MonoBehaviour {
 		nRocks = gol.Length;
 		progress = 0;
 		progressSlider.maxValue = nRocks;
-		nRocks = 1;
 	}
 	
 	void Update () {

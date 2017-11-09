@@ -1,12 +1,3 @@
-Rover:
-    ~ More realistic moving parts can help
-
-Sound:
-    Victory Sound
-    Victory Screen
-
-World:
-    ~ Level design
-
+????
 TODO:
     Keep expanding the list when thinking of stuff
