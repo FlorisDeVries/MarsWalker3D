@@ -243,6 +243,7 @@ GameObject:
   - component: {fileID: 92719827404482070}
   - component: {fileID: 81190742742522696}
   - component: {fileID: 114583952671321822}
+  - component: {fileID: 114113720663438046}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -394,7 +395,7 @@ GameObject:
   - component: {fileID: 12585053449291694}
   - component: {fileID: 26110373650334346}
   m_Layer: 0
-  m_Name: Dust Storm
+  m_Name: Sand Storm 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -460,6 +461,21 @@ GameObject:
   - component: {fileID: 23066967824423496}
   m_Layer: 0
   m_Name: RoverArmLower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1659205979262628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4470322567378252}
+  m_Layer: 0
+  m_Name: LookAt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -630,7 +646,7 @@ GameObject:
   - component: {fileID: 12396777673911762}
   - component: {fileID: 26614917955309616}
   m_Layer: 0
-  m_Name: Dust Storm
+  m_Name: Sand Storm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -950,6 +966,7 @@ Transform:
   - {fileID: 4363166391802456}
   - {fileID: 4513386673705194}
   - {fileID: 4501326912688438}
+  - {fileID: 4470322567378252}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -190.402, z: 0}
@@ -1061,6 +1078,19 @@ Transform:
   m_Father: {fileID: 4898104454480346}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4470322567378252
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1659205979262628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.41, z: 0.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4339054492458968}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4501326912688438
 Transform:
   m_ObjectHideFlags: 1
@@ -1068,7 +1098,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1583394103504168}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000000011175871, y: 5.24, z: 6.7800055}
+  m_LocalPosition: {x: -0, y: 5.24, z: 5.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4339054492458968}
@@ -1081,7 +1111,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1827141769394880}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6.78}
+  m_LocalPosition: {x: -0.0000001937151, y: 0, z: 5.7799945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4339054492458968}
@@ -1363,13 +1393,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1332798380397302}
-  m_LocalRotation: {x: 0.12674408, y: 0.69565505, z: -0.1267441, w: 0.69565505}
-  m_LocalPosition: {x: -5.0012236, y: 4.0795846, z: 0.000006198883}
+  m_LocalRotation: {x: 0.08455196, y: 0.70203346, z: -0.08455199, w: 0.70203346}
+  m_LocalPosition: {x: -8.34018, y: 4.27999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4135784412425870}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 20.651001, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 13.735001, y: 90.00001, z: 0}
 --- !u!12 &12396777673911762
 ParticleAnimator:
   m_ObjectHideFlags: 1
@@ -2560,7 +2590,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 8
+  MaxDistance: 13.527971
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -2880,7 +2910,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 8
+  MaxDistance: 13.085899
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -3043,6 +3073,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 25
+--- !u!114 &114113720663438046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1332798380397302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade87990156b5b247b721cd26f6c6ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 4339054492458968}
+  distance: 10
+  height: 5
+  heightDamping: 3
+  rotationDamping: 2
 --- !u!114 &114159217349028636
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3059,7 +3105,7 @@ MonoBehaviour:
   - {fileID: 82100402174013478}
   - {fileID: 82866151237438520}
   maxPitch: 1.25
-  maxVolume: 0.5
+  maxVolume: 0.3
 --- !u!114 &114332764076530878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3158,8 +3204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 15
-  camera: {fileID: 20060188014407236}
-  controller: {fileID: 0}
+  cam: {fileID: 20060188014407236}
   researchProgress: {fileID: 0}
 --- !u!114 &114591056398492030
 MonoBehaviour:

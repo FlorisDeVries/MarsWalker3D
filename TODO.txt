@@ -1,6 +1,6 @@
 Rover:
     ~ More realistic moving parts can help
-    
+
 Sound:
     Victory Sound
     Victory Screen
@@ -8,5 +8,5 @@ Sound:
 World:
     ~ Level design
 
-TODO:  
+TODO:
     Keep expanding the list when thinking of stuff
