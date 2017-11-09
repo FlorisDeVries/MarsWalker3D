@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RoverMovement : MonoBehaviour {
 	
+	public CameraSway sway;
 	public List<AxleInfo> axleInfos;
 	public float maxMotorTorque;
 	public float maxSteeringAngle;
@@ -43,11 +44,14 @@ public class RoverMovement : MonoBehaviour {
 				}
 			}
 
-			if(Input.GetAxis("Brake") == 0)
+			if(Input.GetAxis("Brake") == 0){
 				if (axleInfo.motor) {
 					axleInfo.leftWheel.motorTorque = motor;
 					axleInfo.rightWheel.motorTorque = motor;
 				}
+			} else{
+				
+			}
 		}
 	}
 }

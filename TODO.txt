@@ -1,9 +1,9 @@
 Rover:
     ~ More realistic moving parts can help
-    ~ Camera sway
     
 Sound:
     Victory Sound
+    Victory Screen
 
 World:
     ~ Level design
