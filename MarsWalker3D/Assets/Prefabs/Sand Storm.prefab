@@ -1,64 +1,69 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &100000
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1928458155709034}
+  m_IsPrefabParent: 1
+--- !u!1 &1928458155709034
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 400000}
-  - component: {fileID: 1500000}
-  - component: {fileID: 1200000}
-  - component: {fileID: 2600000}
+  - component: {fileID: 4630195120975480}
+  - component: {fileID: 15259256977461230}
+  - component: {fileID: 12285663909713184}
+  - component: {fileID: 26167107599450682}
   m_Layer: 0
-  m_Name: Dust Storm
+  m_Name: Sand Storm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1002 &100001
-EditorExtensionImpl:
-  serializedVersion: 6
---- !u!4 &400000
+--- !u!4 &4630195120975480
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
+  m_GameObject: {fileID: 1928458155709034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.0000001937151, y: 0, z: 5.7799945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1002 &400001
-EditorExtensionImpl:
-  serializedVersion: 6
---- !u!12 &1200000
+--- !u!12 &12285663909713184
 ParticleAnimator:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
+  m_GameObject: {fileID: 1928458155709034}
   Does Animate Color?: 1
   colorAnimation[0]:
     serializedVersion: 2
-    rgba: 13290186
+    rgba: 1428774793
   colorAnimation[1]:
     serializedVersion: 2
-    rgba: 482920648
+    rgba: 1058554210
   colorAnimation[2]:
     serializedVersion: 2
-    rgba: 596479373
+    rgba: 1749065168
   colorAnimation[3]:
     serializedVersion: 2
-    rgba: 263632566
+    rgba: 1276600702
   colorAnimation[4]:
     serializedVersion: 2
-    rgba: 7895160
+    rgba: 913158089
   worldRotationAxis: {x: 0, y: 0, z: 0}
   localRotationAxis: {x: 0, y: 0, z: 0}
   sizeGrow: 0.4
@@ -67,20 +72,17 @@ ParticleAnimator:
   damping: 0.5
   stopSimulation: 0
   autodestruct: 0
---- !u!1002 &1200001
-EditorExtensionImpl:
-  serializedVersion: 6
---- !u!15 &1500000
+--- !u!15 &15259256977461230
 EllipsoidParticleEmitter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
+  m_GameObject: {fileID: 1928458155709034}
   serializedVersion: 2
   m_Enabled: 1
   m_Emit: 1
   minSize: 4
-  maxSize: 5
+  maxSize: 6
   minEnergy: 3
   maxEnergy: 3
   minEmission: 25
@@ -97,15 +99,12 @@ EllipsoidParticleEmitter:
   m_OneShot: 0
   m_Ellipsoid: {x: 15, y: 0.1, z: 15}
   m_MinEmitterRange: 0
---- !u!1002 &1500001
-EditorExtensionImpl:
-  serializedVersion: 6
---- !u!26 &2600000
+--- !u!26 &26167107599450682
 ParticleRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
+  m_GameObject: {fileID: 1928458155709034}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -113,7 +112,7 @@ ParticleRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: bb393e804ad0e204cb1fcfbc9b8b0409, type: 2}
+  - {fileID: 2100000, guid: 2bbdd4d2a3ea4e244b2ebe3e38d42724, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -142,20 +141,3 @@ ParticleRenderer:
     x Tile: 1
     y Tile: 1
     cycles: 1
---- !u!1002 &2600001
-EditorExtensionImpl:
-  serializedVersion: 6
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100000}
-  m_IsPrefabParent: 1
---- !u!1002 &100100001
-EditorExtensionImpl:
-  serializedVersion: 6

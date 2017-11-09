@@ -5,12 +5,12 @@ using UnityEngine;
 public class PointAndClick : MonoBehaviour {
 
 	public float range;
-	public Camera camera;
+	public Camera cam;
 	public ResearchProgress researchProgress;
 	
 	void Update () {
 		if (Input.GetMouseButtonDown(0)){ 
-			Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+			Ray ray = cam.ScreenPointToRay(Input.mousePosition);
 			RaycastHit hit;
 			if (Physics.Raycast(ray, out hit, range))
 				if(hit.collider.tag == "Clickable"){

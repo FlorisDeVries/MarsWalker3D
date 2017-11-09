@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RoverMovement : MonoBehaviour {
-	
-	public CameraSway sway;
 	public List<AxleInfo> axleInfos;
 	public float maxMotorTorque;
 	public float maxSteeringAngle;
